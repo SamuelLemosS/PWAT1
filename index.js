@@ -6,8 +6,8 @@ const click = () => {
     var vetor=[];
     var tarefa=digitar.value;
     vetor.push(tarefa);
-    for(i=0;i<vetor.length;i++){
-        value.innerHTML += "<li>Tarefa"+i+ " = "+vetor[i]+ "<br /></li>";
+    for(i=0;i>vetor.length;i++){
+        value.innerHTML += "<li>Tarefa "+(i+1)+"= "+vetor[i]+ "<br /></li>";
     }
 }
 
