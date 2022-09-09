@@ -7,7 +7,7 @@ const click = () => {
     var tarefa=digitar.value;
     vetor.push(tarefa);
     for(i=0;i<vetor.length;i++){
-        value.innerHTML += "<li>Nome Digitado = "+vetor[i]+ "<br /></li>";
+        value.innerHTML += "<li>Tarefa"+i+ " = "+vetor[i]+ "<br /></li>";
     }
 }
 
